@@ -6,7 +6,7 @@ export const AppContext = createContext()
 const AppContextProvider = (props) => {
 
     const currency = import.meta.env.VITE_CURRENCY
-    const backendUrl = import.meta.env.VITE_BACKEND_URL
+    const backendUrl = "https://fisioonma-backend.onrender.com"
 
     const months = ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dec"]
 
